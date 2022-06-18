@@ -1,0 +1,156 @@
+html, p, a, li, h1, h2, h3, h4, h5, h6, small, strong, div{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #main-navbar {
+    z-index: 100;
+  }
+  
+  #main-navbar .nav-link {
+    border-bottom: 5px solid #212529;
+    color: #e2e1e1;
+  }
+  
+  #main-navbar .nav-link:hover , #main-navbar a.active {
+    border-bottom-color: #12a2b8;
+    color: white;
+  }
+  
+  .main-logo {
+    height: 100px;
+    margin-bottom: -70px; /* Supaya logo offset ke bawah */
+  }
+  
+  .small-logo {
+    height: 60px; /* Untuk logo kecil di footer */
+  }
+  
+  /* slide */
+  
+  #main-slide .carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vw;
+    background-attachment: fixed;
+  }
+  
+  .bg-info {
+    background-color: #17a2b8 !important;
+  }
+  
+  #main-slide h1 {
+    margin-top: 50vh;
+  }
+  
+  #slide1 {
+    background-image: url(../images/full-image13.jpg);
+  }
+  
+  #slide2 {
+    background-image: url(../images/full-image4.jpg);
+  }
+  
+  #slide3 {
+    background-image: url(../images/full-image7.jpg);
+  }
+  
+  #slide4 {
+    background-image: url(../images/full-image10.jpg);
+  }
+  
+  /* showoff */
+  .btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-outline-info:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+  }
+  
+  /* explore */
+  #explore {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../images/full-image3.jpg);
+  }
+  
+  #explore .dark-overlay {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+  }
+  
+  .btn-info {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-info:hover {
+    color: white;
+    border-color: #138496;
+    background-color: #138496;
+  }
+  
+  /* members showoff */
+  #member img {
+    filter: brightness(90%);
+    width: 100px;
+    transition: 0.3s;
+  }
+  
+  #member img:hover {
+    filter: brightness(110%);
+  }
+  
+  /* blog */
+  
+  /* header */
+  .header-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .header-overlay {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 300px;
+  }
+  
+  .header-image h1 {
+    margin-top: 120px;
+  }
+  
+  #blog-header {
+    background-image: url(../images/full-image14.jpg);
+    background-position-y: -200px;
+  }
+  
+  
+  /* article */
+  
+  /* header arikel */
+  #artikel-header {
+    background-image: url(../images/full-image11.jpg);
+    background-position-y: -200px;
+  }
+  
+  
+  /* gallery */
+  
+  /* gallery header */
+  #gallery-header {
+    background-image: url(../images/full-image9.jpg);
+    background-position-y: -400px;
+  }
+  #gallery img:hover{
+      transform: scale(1.1);
+      transition-property: transform;
+      transition-duration: .5s;
+  }
